@@ -11,7 +11,7 @@ function Category({ category }) {
       }}
       className="Category"
       style={{
-        backgroundImage: `url(${category.attributes.image.data.attributes.url})`,
+        backgroundImage: `url(${category.attributes?.image?.data.attributes.url})`,
       }}
     >
       <div className="category-content center">
